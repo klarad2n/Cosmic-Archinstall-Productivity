@@ -4,3 +4,5 @@ pacman -S cosmic-idle cosmic-launcher cosmic-notifications cosmic-osd cosmic-pan
 pacman -S cosmic-settings cosmic-settings-daemom cosmic-store cosmic-text-editor cosmic-wallpapers cosmic-workspaces xdg-desktop-portal-cosmic
 systemctl enable cosmic-greeter.service
 pacman -S openh264 firefox firefox-i18n-en-us libreoffice-fresh gimp gimp-help-en thunderbird thunderbird-i18n-en-us guvcview flatpak kitty
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+exit
